@@ -1,0 +1,44 @@
+/* main text black color: #212121; */
+/* accent blue color: #2196F3; */
+/* hero text and adress white color: #FFFFFF; */
+/* other text and function grey color: #757575; */
+/* footer contacts opacity color: rgba(255, 255, 255, 0.6); */
+
+body {
+  background-color: #ffffff;
+}
+ul {
+}
+/* header */
+.page-header {
+  background-color: #ffffff;
+}
+.logo {
+  color: #212121;
+}
+.accent {
+  color: #2196f3;
+}
+.nav-link:hover,
+.nav-link:focus {
+  color: #2196f3;
+}
+.header-contact:hover,
+.header-contact:focus {
+  color: #2196f3;
+}
+/* hero */
+.hero {
+  background-color: #2f303a;
+}
+
+.hero h1 {
+  color: #ffffff;
+}
+/* .button-hero { 
+  color: #2196f3;
+}
+.button-text {
+  color: #ffffff;
+}
+!!!!!!!!!!!!!!!?*/
