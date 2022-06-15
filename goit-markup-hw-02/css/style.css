@@ -15,7 +15,7 @@
 
 body {
   background-color: var(--primary-bg-color);
-  color: var(--primary-text-color: #212121);
+  color: var(--primary-text-color);
   font-family: "Roboto", sans-serif;
 }
 
@@ -95,12 +95,14 @@ body {
   background-color: #2f303a;
 }
 .btn.primary {
+  font-family: inherit;
   color: var(--primary-text-color);
   background-color: var(--accent-text-color);
   font-weight: 700;
   font-size: 16px;
   line-height: 1.9;
   letter-spacing: 0.06em;
+  cursor: pointer;
 }
 .primary:hover,
 .prymary:focus {
@@ -213,14 +215,19 @@ footer {
 
 /* portfolio */
 /* controls*/
+.main-porfolio {
+  letter-spacing: 0.03em;
+  font-family: "Roboto", sans-serif;
+}
 .btn-filter {
+  font-family: inherit;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.6;
   text-align: center;
-  letter-spacing: 0.03em;
   color: var(--primary-text-color);
   background-color: var(--portfolio-btn);
+  cursor: pointer;
 }
 .btn-filter:hover,
 .btn-filter:focus {
@@ -240,6 +247,5 @@ footer {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.9;
-  letter-spacing: 0.03em;
   color: var(--description-text-color);
 }
